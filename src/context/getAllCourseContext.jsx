@@ -17,7 +17,7 @@ export const CoursesProvider = ({ children }) => {
     setLoading(true);
     try {
       const res = await axios.get(
-        `${import.meta.env.VITE_API_URL}/api/courses`
+        `${import.meta.env.VITE_API_BASE_URL}/api/courses`
       ); // your GET
       setCourses(res.data);
       setError(null);
