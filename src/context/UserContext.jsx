@@ -15,11 +15,14 @@ export const UserProvider = ({ children }) => {
       if (!token) {
         throw new Error("No token founds in localStorage");
       }
-      const res = await axios.get("http://localhost:5000/api/users/myprofile", {
-        headers: {
-          Authorization: `Bearer ${token}`,
-        },
-      });
+      const res = await axios.get(
+        "${import.meta.env.VITE_API_BASE_URL}/api/users/myprofile",
+        {
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        }
+      );
       setUser(res.data);
     } catch (err) {
       console.log("myerror", err);

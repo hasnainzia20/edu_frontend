@@ -12,7 +12,7 @@ function MyCourses() {
     const fetchCourses = async () => {
       try {
         const res = await axios.get(
-          "http://localhost:5000/api/users/mycourses",
+          "${import.meta.env.VITE_API_BASE_URL}/api/users/mycourses",
           {
             headers: { Authorization: `Bearer ${token}` },
           }

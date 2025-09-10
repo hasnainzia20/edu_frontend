@@ -16,7 +16,9 @@ export const CoursesProvider = ({ children }) => {
   const fetchCourses = async () => {
     setLoading(true);
     try {
-      const res = await axios.get("http://localhost:5000/api/courses"); // your GET
+      const res = await axios.get(
+        `${import.meta.env.VITE_API_URL}/api/courses`
+      ); // your GET
       setCourses(res.data);
       setError(null);
     } catch (err) {
@@ -33,7 +35,7 @@ export const CoursesProvider = ({ children }) => {
       // const auth = JSON.parse(localStorage.getItem("auth")); // no hooks here
       const token = auth?.token;
       const res = await axios.post(
-        "http://localhost:5000/api/courses",
+        `${import.meta.env.VITE_API_BASE_URL}/api/courses`,
         newData,
         {
           headers: {
@@ -59,7 +61,7 @@ export const CoursesProvider = ({ children }) => {
       // const auth = JSON.parse(localStorage.getItem("auth")); // no hooks here
       const token = auth?.token;
       const res = await axios.put(
-        `http://localhost:5000/api/courses/${id}`,
+        `${import.meta.env.VITE_API_BASE_URL}/api/courses/${id}`,
         updatedData,
         {
           headers: {
@@ -83,7 +85,9 @@ export const CoursesProvider = ({ children }) => {
   const deleteCourse = async (id) => {
     setLoading(true);
     try {
-      await axios.delete(`http://localhost:5000/api/courses/${id}`);
+      await axios.delete(
+        `${import.meta.env.VITE_API_BASE_URL}/api/courses/${id}`
+      );
       setCourses((prev) => prev.filter((course) => course.id !== id));
       setError(null);
     } catch (err) {
@@ -99,7 +103,7 @@ export const CoursesProvider = ({ children }) => {
     // debugger;
     try {
       const res = await axios.post(
-        `http://localhost:5000/api/courses/${courseId}/enroll`,
+        `${import.meta.env.VITE_API_BASE_URL}/api/courses/${courseId}/enroll`,
         {},
         {
           headers: {
