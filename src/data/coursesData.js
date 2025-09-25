@@ -1,3 +1,5 @@
+import qaidaFront from "../assets/img/qaida-front.png";
+
 export const topics = [
   {
     id: "islamic",
@@ -293,7 +295,7 @@ export const courses = [
     slug: "qaida-course-beginners",
     name: "Qaida Course Beginners",
     category: "islamic",
-    image: "/src/assets/img/qaida-front.png",
+    image: { qaidaFront },
     type: "PAID",
     rating: 4.55,
     learners: "5.8L+",
