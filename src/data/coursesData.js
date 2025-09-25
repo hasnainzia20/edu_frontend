@@ -295,7 +295,7 @@ export const courses = [
     slug: "qaida-course-beginners",
     name: "Qaida Course Beginners",
     category: "islamic",
-    image: { qaidaFront },
+    image: qaidaFront,
     type: "PAID",
     rating: 4.55,
     learners: "5.8L+",
