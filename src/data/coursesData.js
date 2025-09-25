@@ -1,4 +1,25 @@
 import qaidaFront from "../assets/img/qaida-front.png";
+import quranImg from "../assets/img/quran-img.png";
+import hifzPng from "../assets/img/hifzpng.png";
+import translation from "../assets/img/translation.png";
+import genralEdu from "../assets/img/genral-edu.jpg";
+import language from "../assets/img/language.jpg";
+import math from "../assets/img/math.png";
+import physecs from "../assets/img/physecs.jpg";
+import webDev from "../assets/img/web-dev.jpg";
+import appDev from "../assets/img/mapps.jpg";
+import ai from "../assets/img/ai.jpg";
+import eCom from "../assets/img/e-com.jpg";
+import fre from "../assets/img/fre.jpg";
+import wordpress from "../assets/img/wordpress.jpg";
+import seo from "../assets/img/seojpg.jpg";
+import digi from "../assets/img/digi.jpg";
+import bio from "../assets/img/bio.png";
+import testimonial1 from "../assets/img/testimonial-1.jpg";
+import testimonial2 from "../assets/img/testimonial-2.jpg";
+import testimonial3 from "../assets/img/testimonial-3.jpg";
+import instructor1 from "../assets/img/instructor-1.jpg";
+import instructor2 from "../assets/img/instructor-2.jpg";
 
 export const topics = [
   {
@@ -370,7 +391,7 @@ export const courses = [
     slug: "nazra-e-quran-course",
     name: "Nazra-E-Quran Course",
     category: "islamic",
-    image: "/src/assets/img/quran-img.png",
+    image: quranImg,
     type: "PAID",
     rating: 4.55,
     learners: "5.2L+",
@@ -383,7 +404,7 @@ export const courses = [
     about_the_course:
       "Nazra-e-Quran is a follow-up to our Qaida course, focusing on building fluency and confidence in reading the Holy Quran. Students will read directly from the Mushaf under the guidance of a qualified instructor, correcting pronunciation and Tajweed.",
     instructor_name: "Hafiz Muhammad Ali",
-    instructor_image: "/src/assets/img/instructor-2.jpg",
+    instructor_image: instructor1,
     skills_gained: [
       "Quranic Recitation",
       "Pronunciation Correction",
@@ -445,7 +466,7 @@ export const courses = [
     slug: "hifz-e-quran",
     name: "Hifz-E-Quran",
     category: "islamic",
-    image: "/src/assets/img/hifzpng.png",
+    image: hifzPng,
     type: "PAID",
     rating: 4.46,
     learners: "76L+",
@@ -458,7 +479,7 @@ export const courses = [
     about_the_course:
       "Hifz-e-Quran is a life-changing journey, and this course provides the tools and guidance needed to succeed. Our instructors use a proven methodology for memorization, revision, and retention, helping students achieve their goal of becoming a Hafiz.",
     instructor_name: "Qari Imran Khan",
-    instructor_image: "/src/assets/img/instructor-3.jpg",
+    instructor_image: instructor2,
     skills_gained: [
       "Quran Memorization",
       "Ayah Recitation",
@@ -520,7 +541,7 @@ export const courses = [
     slug: "quran-translation",
     name: "Quran Translation",
     category: "islamic",
-    image: "/src/assets/img/translation.png",
+    image: translation,
     type: "PAID",
     rating: 3.54,
     learners: "3.3L+",
@@ -533,7 +554,7 @@ export const courses = [
     about_the_course:
       "This course is designed for students to not only read the Quran but also to comprehend its meanings. By understanding the context and message behind each verse, students can develop a deeper connection to their faith and apply its teachings in daily life.",
     instructor_name: "Ustadh Abdullah",
-    instructor_image: "/src/assets/img/instructor-4.jpg",
+    instructor_image: instructor1,
     skills_gained: [
       "Quranic Vocabulary",
       "Textual Comprehension",
@@ -596,7 +617,7 @@ export const courses = [
     slug: "general-education",
     name: "General Education",
     category: "general",
-    image: "/src/assets/img/genral-edu.jpg",
+    image: genralEdu,
     type: "PAID",
     rating: 4.54,
     learners: "1.3L+",
@@ -609,7 +630,7 @@ export const courses = [
     about_the_course:
       "Designed to enhance your foundational knowledge, this course touches on various subjects like social studies, basic science, and literature. It's a perfect refresher for students preparing for exams or for anyone looking to broaden their intellectual horizons.",
     instructor_name: "Mr. David Miller",
-    instructor_image: "/src/assets/img/instructor-5.jpg",
+    instructor_image: instructor2,
     skills_gained: [
       "Critical Thinking",
       "Problem Solving",
@@ -666,7 +687,7 @@ export const courses = [
     slug: "languages",
     name: "Languages",
     category: "general",
-    image: "/src/assets/img/language.jpg",
+    image: language,
     type: "PAID",
     rating: 4.53,
     learners: "1L+",
@@ -679,7 +700,7 @@ export const courses = [
     about_the_course:
       "This course is perfect for travelers, students, or anyone wanting to learn a new language for personal or professional reasons. We focus on conversational skills, essential grammar, and building a strong vocabulary to get you speaking confidently.",
     instructor_name: "Ms. Elara Vance",
-    instructor_image: "/src/assets/img/instructor-6.jpg",
+    instructor_image: instructor1,
     skills_gained: [
       "Conversational Fluency",
       "Grammar Application",
@@ -731,7 +752,7 @@ export const courses = [
     slug: "mathematics",
     name: "Mathematics",
     category: "general",
-    image: "/src/assets/img/math.png",
+    image: math,
     type: "PAID",
     rating: 3.55,
     learners: "3.5L+",
@@ -744,7 +765,7 @@ export const courses = [
     about_the_course:
       "Mathematics is the language of the universe, and this course helps you speak it fluently. We break down complex topics into simple, digestible lessons with plenty of practice problems and real-world examples to make learning engaging and effective.",
     instructor_name: "Dr. Alistair Finch",
-    instructor_image: "/src/assets/img/instructor-7.jpg",
+    instructor_image: instructor2,
     skills_gained: [
       "Algebraic Concepts",
       "Geometric Analysis",
@@ -801,7 +822,7 @@ export const courses = [
     slug: "physics",
     name: "Physics",
     category: "general",
-    image: "/src/assets/img/physecs.jpg",
+    image: physecs,
     type: "PAID",
     rating: 4.64,
     learners: "4.4L+",
@@ -814,7 +835,7 @@ export const courses = [
     about_the_course:
       "Physics is more than just formulas; it's about understanding how the world works. This course demystifies key concepts through engaging experiments and clear explanations, making complex topics accessible and exciting for students of all levels.",
     instructor_name: "Dr. Evelyn Reed",
-    instructor_image: "/src/assets/img/instructor-8.jpg",
+    instructor_image: instructor1,
     skills_gained: [
       "Scientific Method",
       "Thermodynamics Basics",
@@ -872,7 +893,7 @@ export const courses = [
     slug: "web-development",
     name: "Web Development",
     category: "technology",
-    image: "/src/assets/img/web-dev.jpg",
+    image: webDev,
     type: "PAID",
     rating: 4.6,
     learners: "4.2L+",
@@ -885,7 +906,7 @@ export const courses = [
     about_the_course:
       "This course is a complete guide to becoming a web developer. You'll build multiple projects, learn industry best practices, and master the tools used by professionals to create dynamic and interactive web applications.",
     instructor_name: "Mr. Alex Chen",
-    instructor_image: "/src/assets/img/instructor-9.jpg",
+    instructor_image: instructor2,
     skills_gained: ["HTML5", "CSS3", "JavaScript", "React.js", "Node.js"],
     lectures: 45,
     students_enrolled: 450000,
@@ -962,7 +983,7 @@ export const courses = [
     slug: "app-development",
     name: "App Development",
     category: "technology",
-    image: "/src/assets/img/mapps.jpg",
+    image: appDev,
     type: "PAID",
     rating: 4.55,
     learners: "5.3L+",
@@ -975,7 +996,7 @@ export const courses = [
     about_the_course:
       "Learn to build robust and scalable mobile apps using cross-platform frameworks. From setting up your development environment to publishing your app on the App Store and Google Play, this course guides you through every step of the app development lifecycle.",
     instructor_name: "Ms. Lena Petrova",
-    instructor_image: "/src/assets/img/instructor-10.jpg",
+    instructor_image: instructor1,
     skills_gained: [
       "React Native",
       "Mobile UI/UX",
@@ -1032,7 +1053,7 @@ export const courses = [
     slug: "artificial-intelligence",
     name: "Artificial Intelligence",
     category: "technology",
-    image: "/src/assets/img/ai.jpg",
+    image: ai,
     type: "PAID",
     rating: 4.45,
     learners: "5L+",
@@ -1045,7 +1066,7 @@ export const courses = [
     about_the_course:
       "Whether you are a developer or a data enthusiast, this course will equip you with the fundamental knowledge of AI. You will learn the core concepts behind machine learning algorithms, understand how neural networks function, and build your own simple AI models.",
     instructor_name: "Dr. Kenji Tanaka",
-    instructor_image: "/src/assets/img/instructor-11.jpg",
+    instructor_image: instructor2,
     skills_gained: [
       "Machine Learning",
       "Neural Networks",
@@ -1102,7 +1123,7 @@ export const courses = [
     slug: "e-commerce-management",
     name: "E-Commerce Management",
     category: "technology",
-    image: "/src/assets/img/e-com.jpg",
+    image: eCom,
     type: "PAID",
     rating: 4.5,
     learners: "1.1L+",
@@ -1115,7 +1136,7 @@ export const courses = [
     about_the_course:
       "In the age of online shopping, a successful e-commerce business is within reach. This course provides a step-by-step blueprint for setting up, managing, and scaling an online store, ensuring you have the knowledge to compete in the digital marketplace.",
     instructor_name: "Ms. Sarah Jones",
-    instructor_image: "/src/assets/img/instructor-12.jpg",
+    instructor_image: instructor1,
     skills_gained: [
       "Shopify Management",
       "Digital Marketing",
@@ -1167,7 +1188,7 @@ export const courses = [
     slug: "freelancing",
     name: "Freelancing",
     category: "technology",
-    image: "/src/assets/img/fre.jpg",
+    image: fre,
     type: "PAID",
     rating: 4.6,
     learners: "4.2L+",
@@ -1180,7 +1201,7 @@ export const courses = [
     about_the_course:
       "This course is your blueprint for a successful freelance career. It demystifies the process of finding high-paying clients, managing your finances, and building a professional reputation that ensures repeat business and a steady income.",
     instructor_name: "Mr. Chris Evans",
-    instructor_image: "/src/assets/img/instructor-13.jpg",
+    instructor_image: instructor2,
     skills_gained: [
       "Client Acquisition",
       "Project Management",
@@ -1232,7 +1253,7 @@ export const courses = [
     slug: "wordpress",
     name: "Word Press",
     category: "technology",
-    image: "/src/assets/img/wordpress.jpg",
+    image: wordpress,
     type: "PAID",
     rating: 4.55,
     learners: "5.3L+",
@@ -1245,7 +1266,7 @@ export const courses = [
     about_the_course:
       "WordPress powers over 40% of the web, and this course shows you why. You’ll learn how to leverage its powerful tools to create professional blogs, business sites, and e-commerce stores, making you a sought-after professional in the digital world.",
     instructor_name: "Mr. Kevin Lee",
-    instructor_image: "/src/assets/img/instructor-14.jpg",
+    instructor_image: instructor1,
     skills_gained: [
       "Theme Customization",
       "Plugin Integration",
@@ -1297,7 +1318,7 @@ export const courses = [
     slug: "seo",
     name: "SEO",
     category: "technology",
-    image: "/src/assets/img/seojpg.jpg",
+    image: seo,
     type: "PAID",
     rating: 4.45,
     learners: "5L+",
@@ -1310,7 +1331,7 @@ export const courses = [
     about_the_course:
       "SEO is the key to online visibility. This course will teach you how to analyze keywords, optimize your site's content, and build a strong backlink profile to rank higher in search engine results. You'll gain a competitive edge in any digital industry.",
     instructor_name: "Ms. Jessica Alba",
-    instructor_image: "/src/assets/img/instructor-15.jpg",
+    instructor_image: instructor2,
     skills_gained: [
       "Keyword Research",
       "Link Building",
@@ -1367,7 +1388,7 @@ export const courses = [
     slug: "digital-marketing",
     name: "Digital Marketing",
     category: "technology",
-    image: "/src/assets/img/digi.jpg",
+    image: digi,
     type: "PAID",
     rating: 4.55,
     learners: "5.3L+",
@@ -1380,7 +1401,7 @@ export const courses = [
     about_the_course:
       "Digital marketing is a crucial skill for any modern business. This course provides a practical toolkit for promoting products and services online, helping you to generate leads, increase sales, and build a powerful brand presence across all digital channels.",
     instructor_name: "Mr. Mark Wilson",
-    instructor_image: "/src/assets/img/instructor-16.jpg",
+    instructor_image: instructor1,
     skills_gained: [
       "Social Media Marketing",
       "Content Strategy",
@@ -1433,7 +1454,7 @@ export const courses = [
     slug: "intro-to-biomedical-engineering",
     name: "Intro to Biomedical Engineering",
     category: "biomedical",
-    image: "/src/assets/img/bio.png",
+    image: bio,
     type: "PAID",
     rating: 4.5,
     learners: "500+",
@@ -1446,7 +1467,7 @@ export const courses = [
     about_the_course:
       "This course provides a fascinating look into the intersection of medicine and engineering. You'll explore how technology is used to solve medical problems, from designing artificial organs to developing diagnostic equipment, paving the way for a career in this cutting-edge field.",
     instructor_name: "Dr. Sofia Morales",
-    instructor_image: "/src/assets/img/instructor-17.jpg",
+    instructor_image: instructor1,
     skills_gained: [
       "Medical Devices",
       "Bio-instrumentation",
@@ -1498,7 +1519,7 @@ export const courses = [
     slug: "medical-device-design",
     name: "Medical Device Design",
     category: "biomedical",
-    image: "/src/assets/img/bio.png",
+    image: bio,
     type: "PAID",
     rating: 4.7,
     learners: "200+",
@@ -1511,7 +1532,7 @@ export const courses = [
     about_the_course:
       "This specialized course is for aspiring biomedical engineers and designers. You'll gain a deep understanding of the regulatory environment, safety standards, and iterative design process required to bring innovative medical devices to life.",
     instructor_name: "Dr. Ethan Brooks",
-    instructor_image: "/src/assets/img/instructor-18.jpg",
+    instructor_image: instructor2,
     skills_gained: [
       "Design Process",
       "Regulatory Affairs",
@@ -1568,42 +1589,42 @@ export const getInDemandCourses = () => {
 export const reviews = [
   {
     id: 1,
-    image: "/src/assets/img/testimonial-1.jpg",
+    image: testimonial1,
     name: "Sarah K.",
     review:
       "I'm amazed at the quality of the free courses available. The instructors are experts in their fields, and the interactive lessons make learning a breeze. Thank you for this opportunity!",
   },
   {
     id: 2,
-    image: "/src/assets/img/testimonial-2.jpg",
+    image: testimonial2,
     name: "John M.",
     review:
       "I'm amazed at the quality of the free courses available. The instructors are experts in their fields, and the interactive lessons make learning a breeze. Thank you for this opportunity!",
   },
   {
     id: 3,
-    image: "/src/assets/img/testimonial-3.jpg",
+    image: testimonial3,
     name: "David p.",
     review:
       "I'm amazed at the quality of the free courses available. The instructors are experts in their fields, and the interactive lessons make learning a breeze. Thank you for this opportunity!",
   },
   {
     id: 4,
-    image: "/src/assets/img/testimonial-1.jpg",
+    image: testimonial1,
     name: "Sarah K.",
     review:
       "I'm amazed at the quality of the free courses available. The instructors are experts in their fields, and the interactive lessons make learning a breeze. Thank you for this opportunity!",
   },
   {
     id: 5,
-    image: "/src/assets/img/testimonial-2.jpg",
+    image: testimonial2,
     name: "John M.",
     review:
       "I'm amazed at the quality of the free courses available. The instructors are experts in their fields, and the interactive lessons make learning a breeze. Thank you for this opportunity!",
   },
   {
     id: 6,
-    image: "/src/assets/img/testimonial-3.jpg",
+    image: testimonial3,
     name: "David p.",
     review:
       "I'm amazed at the quality of the free courses available. The instructors are experts in their fields, and the interactive lessons make learning a breeze. Thank you for this opportunity!",
