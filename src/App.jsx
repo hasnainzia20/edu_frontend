@@ -23,6 +23,7 @@ import Logout from "./features/user/pages/logout/Logout";
 import CourseForm from "./features/Instructor/pages/allCourses/CourseForm";
 import InstructorProfile from "./features/Instructor/pages/profile/InstructorProfile";
 import { UserProvider } from "./context/UserContext";
+import CourseFormR from "./features/Instructor/pages/allCourses/CourseFormR";
 
 function App() {
   return (
@@ -115,6 +116,7 @@ function App() {
               element={
                 <ProtectedRoute role={"instructor"}>
                   <CourseForm />
+                  {/* <CourseFormR /> */}
                 </ProtectedRoute>
               }
             />
